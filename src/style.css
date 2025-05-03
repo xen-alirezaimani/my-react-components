@@ -1,0 +1,76 @@
+@font-face {
+  font-family: Estedad-thin;
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("./assets/fonts/Estedad-Thin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Estedad-extralight;
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./assets/fonts/Estedad-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Estedad-light;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./assets/fonts/Estedad-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Estedad-regular;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/Estedad-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Estedad-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./assets/fonts/Estedad-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Estedad-semibold;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/Estedad-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Estedad-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url("./assets/fonts/Estedad-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Estedad-extrabold;
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./assets/fonts/Estedad-ExtraBold.woff2") format("woff2");
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-estedad-thin: "Estedad-thin", sans-serif;
+  --font-estedad-extralight: "Estedad-extralight", sans-serif;
+  --font-estedad-light: "Estedad-light", sans-serif;
+  --font-estedad-regular: "Estedad-regular", sans-serif;
+  --font-estedad-medium: "Estedad-medium", sans-serif;
+  --font-estedad-semibold: "Estedad-semibold", sans-serif;
+  --font-estedad-bold: "Estedad-bold", sans-serif;
+  --font-estedad-extrabold: "Estedad-extrabold", sans-serif;
+}
